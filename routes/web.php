@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-// 2) Incolliamo il percorso di "MainController".
+// 2) Importo il percorso di "MainController".
 use App\Http\Controllers\MainController;
 
 /*
