@@ -7,8 +7,12 @@
         {{$movies}}
     </div> --}}
     <ul>
-        @foreach ($movies as $movie)
+        {{-- @foreach ($movies as $movie)
             <li>{{$movie ['id']}} - {{$movie ['title']}} - {{$movie ['original_title']}} - {{$movie ['nationality']}} - {{$movie ['date']}} - {{$movie ['vote']}} </li>
+        @endforeach --}}
+
+        @foreach ($movies as $movie)
+            <li>{{$movie-> id}} - {{$movie-> title}} - {{$movie -> original_title}} - {{$movie -> nationality}} - {{$movie -> date}} - {{$movie -> vote}} </li>
         @endforeach
     </ul>
 @endsection
